@@ -1,0 +1,20 @@
+# Java student Management System 
+Simple console-based Java project to manage student records
+## Features 
+- Add student 
+- Update Student 
+- Search  Student 
+- Delete  Student 
+- File storage
+
+## How to Run 
+1. Clone the repo
+2. Compile with 'javac'
+3. Run with 'java'
+
+## Build with 
+- Javs 
+- File I/O 
+
+## Goal 
+Practice java basics and prepare for open source
