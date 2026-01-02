@@ -4,7 +4,7 @@ public class Student { // Student class is representing a student entity
   private string f_name;
   private string m_name;
   private double percentage;
-//function
+//constructor
   public Student( int id,  string name, string f_name,string m_name, double percentage) {
      
          this.id = id;
@@ -14,6 +14,28 @@ public class Student { // Student class is representing a student entity
          this.percentage = percentage;
 
   }
+   //methods
+   public int getId(){
+      return id;
+   }
+     public String getName(){
+      return name;
+   }
+
+   public String getFname(){
+      return f_name;
+   }
+
+   public String getMname(){
+      return m_name;
+   }
+   public double getPercentage(){
+      return percentage;
+   }
+   
+   
+   
+
 
 }
      
