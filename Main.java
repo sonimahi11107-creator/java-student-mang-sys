@@ -4,8 +4,14 @@ public class Main {
         StudentService service = new StudentService();  //object created
 
         Student s1 = new Student(402, "Mahi" , "Sunil" , " Neeta " , 90.5 );  // one student detail done
+        Student s2 = new Student(403, "Shubhi" , "Dev" , "Lata" , 80.5 );
+        Student s3 = new Student(404, "Rahi" , "Shusheel" , "Seeta " , 85 );
 
         service.addStudent(s1);
-        System.out.println(s1);
+       service.addStudent(s2);
+        service.addStudent(s3);
+
+        service.printAllStudents();
+        
     }
 }
