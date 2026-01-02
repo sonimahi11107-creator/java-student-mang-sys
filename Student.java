@@ -22,16 +22,37 @@ public class Student { // Student class is representing a student entity
       return name;
    }
 
-   public String getFname(){
+   public String getF_name(){
       return f_name;
    }
 
-   public String getMname(){
+   public String getM_name(){
       return m_name;
    }
    public double getPercentage(){
       return percentage;
    }
+
+   // setter to make changes 
+
+   public void setName(String name){
+      this.name = name ;
+   }
+
+   public void setF_name(String f_name ){
+      this.f_name = f_name;
+   }
+
+    public void setM_name(String m_name ){
+      this.m_name = m_name;
+    }
+
+   public void setPercentage(String percentage){
+      this.percentage = percentage;
+   }
+   
+   
+   
    
    
    
