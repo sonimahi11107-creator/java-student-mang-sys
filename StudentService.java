@@ -25,6 +25,20 @@ public class StudentService{
             System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~"); // shoe seperation b/w each student
         }
     }
+
+    // search student by id
+
+    public Student searchById(int id){
+
+        //for - each loop
+        for ( Student student : students ){
+            if(student.getId == id ){
+                return student;
+            }
+        }
+        return null;
+    }
+    
     
 
 
