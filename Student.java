@@ -1,10 +1,10 @@
-public class Student {
+public class Student { // Student class is representing a student entity
    private int id;
   private string name;
   private string f_name;
   private string m_name;
   private double percentage;
-
+//function
   public Student( int id,  string name, string f_name,string m_name, double percentage) {
      
          this.id = id;
