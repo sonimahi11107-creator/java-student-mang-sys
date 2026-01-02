@@ -5,9 +5,6 @@ public class Student {
   private string m_name;
   private double percentage;
 
-
-  //function
-
   public Student( int id,  string name, string f_name,string m_name, double percentage) {
      
          this.id = id;
