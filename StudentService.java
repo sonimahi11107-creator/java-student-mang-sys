@@ -16,5 +16,15 @@ public class StudentService{
         students.add(student);
     }
 
+    // method to print all students
+    public void printAllStudents(){
+
+        //for - each loop 
+        for(Student student : students){    //for (datatype variable : list)
+            System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~"); // shoe seperation b/w each student
+        }
+    }
+    
+
 
 }
