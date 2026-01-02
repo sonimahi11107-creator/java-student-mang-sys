@@ -10,4 +10,11 @@ private List<Student> students ;
 public StudentService() {
   students = new ArrayList<>();
 }
+
+  //method to add students 
+public void addStudent(Student student){
+  studentd.add(student);
+}
+  
+  
 }
