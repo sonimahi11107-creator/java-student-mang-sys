@@ -50,6 +50,13 @@ public class Student { // Student class is representing a student entity
    public void setPercentage(String percentage){
       this.percentage = percentage;
    }
+
+   @override 
+   public String toString(){
+      
+      return "ID: " + id + "\n" + " NAME: " + name + "\n" + "FATHER NAME: " + f_name + "\n" + " MOTHER NAME: " +  m_name + "\n" + " PERCENTAGE: " + percentage ;
+   
+   }
    
    
    
