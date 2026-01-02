@@ -21,6 +21,7 @@ public class StudentService{
 
         //for - each loop 
         for(Student student : students){    //for (datatype variable : list)
+            System.out.println(student);
             System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~"); // shoe seperation b/w each student
         }
     }
