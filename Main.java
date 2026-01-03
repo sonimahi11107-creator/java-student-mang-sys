@@ -23,25 +23,32 @@ public class Main {
             switch (choice) {
 
                 case 1:
-                    System.out.print("Enter ID: ");
-                    int id = sc.nextInt();
-                    sc.nextLine(); // consume newline
+                    
+    System.out.print("Enter ID: ");
+    int id = sc.nextInt();
+    sc.nextLine();
 
-                    System.out.print("Enter Name: ");
-                    String name = sc.nextLine();
+    if (service.isIdExists(id)) {
+        System.out.println("ID already exists. Try with another.");
+        break;
+    }
 
-                    System.out.print("Enter Father Name: ");
-                    String f_name = sc.nextLine();
+    System.out.print("Enter Name: ");
+    String name = sc.nextLine();
 
-                    System.out.print("Enter Mother Name: ");
-                    String m_name = sc.nextLine();
+    System.out.print("Enter Father Name: ");
+    String f_name = sc.nextLine();
 
-                    System.out.print("Enter Percentage: ");
-                    double percentage = sc.nextDouble();
+    System.out.print("Enter Father Name: ");
+    String m_name = sc.nextLine();
 
-                    service.addStudent(new Student(id, name, f_name, m_name, percentage));
-                    System.out.println("Student added successfully");
-                    break;
+    System.out.print("Enter Percentage: ");
+    double percentage = sc.nextDouble();
+
+    service.addStudent(new Student(id, name, f_name, m_name, percentage));
+                    
+    System.out.println("Student details added successfully");
+    break;
 
                 case 2:
                     service.printAllStudents();
