@@ -52,6 +52,26 @@ public class StudentService{
 }
 
 
+
+    public boolean updateStudentById(int id, String name, String f_name, String m_name, double percentage) {
+
+    for (Student student : students) {
+        if (student.getId() == id) {
+
+            student.setName(name);
+            student.setf_name(f_name);
+            student.setm_name(m_name);
+            student.setpercentage(percentage);
+
+            return true;
+        }
+    }
+
+    return false;
+}
+        
+
+
      
 
 }
