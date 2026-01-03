@@ -54,17 +54,10 @@ public class Student { // Student class is representing a student entity
     @Override
     public String toString(){
 
-        return "ID: " + id + "\n" + "NAME: " + name + "\n" + "FATHER NAME: " + f_name + "\n" + "MOTHER NAME: " +  m_name + "\n" + "PERCENTAGE: " + percentage ;
+        return "ID: " + id + "\nNAME: " + name + "\nFATHER NAME: " + f_name + "\nMOTHER NAME: " +  m_name + "\nPERCENTAGE: " + percentage ;
 
     }
-
-
-
-
-
-
-
-
+    
 }
 
 
