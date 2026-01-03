@@ -19,7 +19,7 @@ public class StudentService{
     // method to print all students
     public void printAllStudents(){
 
-        //for - each loop 
+        //for - each loop
         for(Student student : students){    //for (datatype variable : list)
             System.out.println(student);
             System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~"); // shoe seperation b/w each student
@@ -32,7 +32,7 @@ public class StudentService{
 
         //for - each loop
         for ( Student student : students ){
-            if(student.getId == id ){
+            if(student.getId() == id ){
                 return student;
             }
         }
@@ -41,14 +41,14 @@ public class StudentService{
 
     public boolean deleteStudentById(int id) {
 
-    for (Student student : students) {
-        if (student.getId() == id) {
-            students.remove(student);
-            return true;
+        for (Student student : students) {
+            if (student.getId() == id) {
+                students.remove(student);
+                return true;
+            }
         }
-    }
 
-    return false;
-}
+        return false;
+    }
 
 }
