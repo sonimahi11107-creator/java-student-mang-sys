@@ -11,12 +11,14 @@ Supports CRUD operations using OOP principles and Java Collections.
 - Update student details
 - Delete student
 - Input validation
+- Menu-driven console interface
 
 ## 🛠️ Technologies Used
 - Java
 - OOP
 - ArrayList
 - Git & GitHub
+
 
 ## ▶️ How to Run
 1. Clone the repository
