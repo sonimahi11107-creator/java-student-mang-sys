@@ -7,21 +7,22 @@ public class Main {
         Student s2 = new Student(403, "Shubhi" , "Dev" , "Lata" , 80.5 );
         Student s3 = new Student(404, "Rahi" , "Shusheel" , "Seeta " , 85 );
 
-        Student result = service.searchById(403);
 
-        if (result != null)
-        {
-            Systen.out.println(" " + name + " found" ) ;
-            System.out.println(result);
-        } else {
-            System.out.println("Not found ");
-        }
 
         service.addStudent(s1);
-       service.addStudent(s2);
+        service.addStudent(s2);
         service.addStudent(s3);
 
-       // service.printAllStudents();
-        
+        boolean deleted = service.deleteStudentById(402);
+
+        if (deleted) {
+            System.out.println("Student deleted successfully");
+        } else {
+            System.out.println("Student not found");
+        }
+
+        service.printAllStudents();
+
+
     }
 }
