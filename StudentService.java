@@ -39,16 +39,19 @@ public class StudentService{
         return null;
     }
 
-    public boolean deleteStudentById(int id) {
+   public boolean deleteStudentById(int id) {
 
-        for (Student student : students) {
-            if (student.getId() == id) {
-                students.remove(student);
-                return true;
-            }
+    for (int i = 0; i < students.size(); i++) {
+        if (students.get(i).getId() == id) {
+            students.remove(i);
+            return true;
         }
-
-        return false;
     }
+
+    return false;
+}
+
+
+     
 
 }
