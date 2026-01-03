@@ -39,7 +39,7 @@ public class StudentService{
         return null;
     }
 
-   public boolean deleteStudentById(int id) {
+  /* public boolean deleteStudentById(int id) {
 
     for (int i = 0; i < students.size(); i++) {
         if (students.get(i).getId() == id) {
@@ -50,7 +50,7 @@ public class StudentService{
 
     return false;
 }
-
+*/
 
 
     public boolean updateStudentById(int id, String name, String f_name, String m_name, double percentage) {
