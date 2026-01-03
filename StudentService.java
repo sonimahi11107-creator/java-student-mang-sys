@@ -38,8 +38,17 @@ public class StudentService{
         }
         return null;
     }
-    
-    
 
+    public boolean deleteStudentById(int id) {
+
+    for (Student student : students) {
+        if (student.getId() == id) {
+            students.remove(student);
+            return true;
+        }
+    }
+
+    return false;
+}
 
 }
