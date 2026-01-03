@@ -20,6 +20,23 @@ public class Main {
         } else {
             System.out.println("Student not found");
         }
+        
+        boolean updated = service.updateStudentById(
+        402,
+        "Aman",
+        "Suresh ",
+            "seema",
+        88.5
+);
+
+if (updated) {
+    System.out.println("Student updated successfully");
+} else {
+    System.out.println("Student not found");
+}
+
+service.printAllStudents();
+
 
         service.printAllStudents();
 
