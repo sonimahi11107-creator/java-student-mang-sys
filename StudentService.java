@@ -17,13 +17,22 @@ public class StudentService{
     }
 
     // method to print all students
-    public void printAllStudents(){
 
-        //for - each loop
-        for(Student student : students){    //for (datatype variable : list)
-            System.out.println(student);
-            System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~"); // shoe seperation b/w each student
-        }
+        public void printAllStudents() {
+
+            //handles enpty input
+            
+    if (students.isEmpty()) {
+        System.out.println("No students available");
+        return;
+    }
+
+    for (Student student : students) {
+        System.out.println(student);
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~");
+    }
+}
+
     }
 
     // search student by id
