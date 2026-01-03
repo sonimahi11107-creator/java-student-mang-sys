@@ -61,6 +61,17 @@ public class StudentService{
 }
 */
 
+//prevent duplicate id
+public boolean isIdExists(int id) {
+    for (Student student : students) {
+        if (student.getId() == id) {
+            return true;
+        }
+    }
+    return false;
+}
+
+
 
     public boolean updateStudentById(int id, String name, String f_name, String m_name, double percentage) {
 
