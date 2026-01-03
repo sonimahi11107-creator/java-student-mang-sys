@@ -21,7 +21,7 @@ public class Main {
        service.addStudent(s2);
         service.addStudent(s3);
 
-        service.printAllStudents();
+       // service.printAllStudents();
         
     }
 }
