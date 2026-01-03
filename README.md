@@ -1,20 +1,29 @@
-# Java student Management System 
-Simple console-based Java project to manage student records
-## Features 
-- Add student 
-- Update Student 
-- Search  Student 
-- Delete  Student 
-- File storage
+# Student Management System (Java)
 
-## How to Run 
-1. Clone the repo
-2. Compile with 'javac'
-3. Run with 'java'
+## 📌 Description
+A menu-driven console-based Java application to manage student records.
+Supports CRUD operations using OOP principles and Java Collections.
 
-## Build with 
-- Javs 
-- File I/O 
+## 🚀 Features
+- Add student
+- View all students
+- Search student by ID
+- Update student details
+- Delete student
+- Input validation
 
-## Goal 
-Practice java basics and prepare for open source
+## 🛠️ Technologies Used
+- Java
+- OOP
+- ArrayList
+- Git & GitHub
+
+## ▶️ How to Run
+1. Clone the repository
+2. Open in IntelliJ / Eclipse
+3. Run `Main.java`
+4. Follow menu instructions
+
+
+## 👩‍💻 Author
+Mahi Soni
