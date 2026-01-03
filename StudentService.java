@@ -59,9 +59,9 @@ public class StudentService{
         if (student.getId() == id) {
 
             student.setName(name);
-            student.setf_name(f_name);
-            student.setm_name(m_name);
-            student.setpercentage(percentage);
+            student.setF_name(f_name);
+            student.setM_name(m_name);
+            student.setPercentage(percentage);
 
             return true;
         }
